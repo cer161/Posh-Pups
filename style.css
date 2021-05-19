@@ -62,11 +62,17 @@ textarea:focus {
   color: white;
 }
 
-@media screen and (max-width: 767px){   
-    #banner{      
-        background: url("img/red2.jpeg");
+@media screen and (max-width: 767px) {   
+    #banner{
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
     } 
 }
+
+@media screen and (min-width: 768px) {      
+    #banner{      
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    } 
+} 
 
 #banner h3 {
   background: black;
