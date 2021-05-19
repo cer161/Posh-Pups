@@ -62,26 +62,10 @@ textarea:focus {
   color: white;
 }
 
-@media screen and (max-width: 767px) {   
+@media screen and (max-width: 380px) {   
     #banner{
     	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
     } 
-}
-
-@media screen and (min-width: 768px) {      
-    #banner{      
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
-    } 
-} 
-@media (min-width: 992px) {      
-      #banner{        
-          background-image: url(http://subtlepatterns.com/patterns/paisley.png);
-      } 
-}
-@media (min-width: 1200px) {    
-     #banner{         
-         background-image: url(http://subtlepatterns.com/patterns/paisley.png);
-     } 
 }
 
 #banner h3 {
