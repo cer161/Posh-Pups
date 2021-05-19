@@ -73,6 +73,16 @@ textarea:focus {
     	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
     } 
 } 
+@media (min-width: 992px) {      
+      #banner{        
+          background-image: url("img/yellow.jpeg");
+      } 
+}
+@media (min-width: 1200px) {    
+     #banner{         
+         background-image: url("img/yellow.jpeg");
+     } 
+}
 
 #banner h3 {
   background: black;
