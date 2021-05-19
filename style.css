@@ -54,7 +54,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2) url("img/red2.jpeg");
+  background: rgba(0, 0, 0, 0.2) url(http://subtlepatterns.com/patterns/dark_embroidery.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -64,13 +64,13 @@ textarea:focus {
 
 @media screen and (max-width: 767px) {   
     #banner{
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    	background-image: url("img/red2.jpeg");
     } 
 }
 
 @media screen and (min-width: 768px) {      
     #banner{      
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    	background-image: url("img/red2.jpeg");
     } 
 } 
 @media (min-width: 992px) {      
