@@ -64,13 +64,13 @@ textarea:focus {
 
 @media screen and (max-width: 767px) {   
     #banner{
-    	background-image: url("img/yellow.jpeg");
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
     } 
 }
 
 @media screen and (min-width: 768px) {      
     #banner{      
-    	background-image: url("img/yellow.jpeg");
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
     } 
 } 
 @media (min-width: 992px) {      
