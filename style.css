@@ -64,7 +64,7 @@ textarea:focus {
 
 @media screen and (max-width: 767px){   
     #banner{      
-        content:url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+        background: url("img/red2.jpeg");
     } 
 }
 
