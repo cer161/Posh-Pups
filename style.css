@@ -64,13 +64,13 @@ textarea:focus {
 
 @media screen and (max-width: 767px) {   
     #banner{
-    	background-image: url("img/red2resize.jpeg");
+    	background-image: url("img/PoshPups-7.jpg");
     } 
 }
 
 @media screen and (min-width: 768px) {      
     #banner{      
-    	background-image: url("img/red2resize.jpeg");
+    	background-image: url("img/PoshPups-7.jpg");
     } 
 } 
 @media (min-width: 992px) {      
