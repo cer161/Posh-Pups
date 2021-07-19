@@ -17,7 +17,7 @@ h1 {
  width: 100vw;/* <-- children as wide as the browser window (viewport) */
   margin-left: calc(-1 * ((100vw - 100%) / 2));/* align left edge to the left edge of the viewport */
   /* The above is basically saying to set the left margin to minus the width of the viewport MINUS the width of the parent, divided by two, so the left edge of the viewport */
-  height: 795px;
+  height: 815px;
   background: url("img/weather3.gif");
   background-size: cover;
 }
