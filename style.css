@@ -13,8 +13,7 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 .main-header{
-  width: auto;
-  background-size: 100% 300px;
+  width: 100%;
 }
 p {
   line-height: 1.5;
