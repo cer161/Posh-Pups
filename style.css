@@ -5,23 +5,29 @@ body {
 }
 
 h1 {
+  color: white;
   padding: 8px;
-  background: rgba(255, 0, 0, 0.8);
+  background: rgba(240, 3, 3, 0.938);
+  text-align: center;
   border-radius: 8px;
   margin: 0;
   font-size: 64px;
   font-family: "Roboto Slab", serif;
 }
 
-.main-header{
- width: 100vw;/* <-- children as wide as the browser window (viewport) */
-  margin-left: calc(-1 * ((100vw - 100%) / 2));/* align left edge to the left edge of the viewport */
-  /* The above is basically saying to set the left margin to minus the width of the viewport MINUS the width of the parent, divided by two, so the left edge of the viewport */
-  height: 835px;
-  background: url("img/weather3.gif");
-  background-size: cover;
+text {
+  color: white;
+  padding: 8px;
+  background: rgba(37, 31, 31, 0.938);
+  text-align: center;
+  border-radius: 8px;
+  margin: 0;
+  font: inherit;
+  
 }
-
+.main-header{
+  width: auto;
+}
 p {
   line-height: 1.5;
 }
@@ -95,12 +101,46 @@ textarea:focus {
      }
 }
 
-#banner h3 {
-  background: black;
-  border-radius: 8px;
-  padding: 0 24px;
-  font-size: 24px;
+
+/* Banner2 */
+
+#banner2 {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(92, 225, 230) url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode:normal;
+  color: white;
 }
+
+
+@media screen and (max-width: 767px) {
+    #banner2{
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #banner2{
+    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    }
+}
+@media (min-width: 992px) {
+      #banner2{
+          background-image: url("img/weather5.gif");
+      }
+}
+@media (min-width: 1200px) {
+     #banner2{
+         background-image: url("img/weather5.gif");
+     }
+}
+
 
 /* Search Box */
 
