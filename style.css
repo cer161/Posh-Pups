@@ -141,6 +141,9 @@ textarea:focus {
      }
 }
 
+p{
+  font-family: OpenSans;
+}
 
 /* Search Box */
 
