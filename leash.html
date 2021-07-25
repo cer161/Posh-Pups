@@ -10,8 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
     <title>Posh Pups</title>
-    <script src="js-image-zoom.js"></script>
-
 </head>
 
 <body>
@@ -38,7 +36,7 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-              <a  href="ourproducts.html">Our Products</a>
+              <a href="ourproducts.html">Our Products</a>
           </li>
             <li>
                 <a href="about.html">About</a>
@@ -49,45 +47,53 @@
         </ul>
     </nav>
   
+
+
 <div id="searchbox">
     <input type="text" placeholder="Search Here">
 </div>
 
 <main>
 <br><br><br><br><br><br>
-
     <section class="gallery">
         <div class="gallery__item">
             <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src="img/2E_JdBXz.jpeg" alt=""/>
+            <img class="gallery__img" src="img/largerleash1.png" alt=""/>
             <br><br>
-            <label for="img-1" class="gallery__thumb"><img src="img/2E_JdBXzsmall.jpeg" alt=""/></label>
+            <label for="img-1" class="gallery__thumb"><img src="img/smallleash1.png" alt=""/></label>
         </div>
         <div class="gallery__item">
             <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src="img/PoshPups-33re.jpg" alt=""/>
+            <img class="gallery__img" src="img/Largerleash3.png" alt=""/>
             <br><br>
-            <label for="img-4" class="gallery__thumb"><img src="img/PoshPups-33re2.jpg" alt=""/></label>
+            <label for="img-4" class="gallery__thumb"><img src="img/Smallleash3.png" alt=""/></label>
         </div>
         <div class="gallery__item">
             <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src="img/PoshPups-65_adobespark.jfif" alt=""/>
+            <img class="gallery__img" src="img/largerleash2.png" alt=""/>
             <br><br>
-            <label for="img-3" class="gallery__thumb"><img src="img/PoshPups-65_adobespark2.jfif" alt=""/></label>
+            <label for="img-3" class="gallery__thumb"><img src="img/smallleash2.png" alt=""/></label>
         </div>
         <div class="gallery__item">
             <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src="img/PoshPups-41_adobespark.jfif" alt=""/>
+            <img class="gallery__img" src="img/largerleash4.png" alt=""/>
             <br><br>
-            <label for="img-2" class="gallery__thumb"><img src="img/PoshPups-41_adobesmall.jfif" alt=""/></label>
+            <label for="img-2" class="gallery__thumb"><img src="img/smallleash4.png" alt=""/></label>
         </div>
-        <div class="gallery__item-description">
-            <h3>The Fetch Windbreaker</h3>
-            <p>This Cobalt Windbreaker is a sporty windbreaker, crafted for small to medium sized dogs. The material is 75% Polyester, 25% Recycled Polyester. The water repellant finish gives a comfortable, lightweight wear, perfect for those windy days or trips to the park!</p>
-            <a href="https://www.amazon.com/" class="btn-readmore">Buy on Amazon</a>
-        </div>
+        
+        <div class="card-description">
+                <a href="https://www.amazon.com/">
+                    <h3>Posh Pups Classic Leash</h3>
+                </a>
+                <p>
+                    The Posh Pups Classic Leash is an original leash, hancrafted for the most active of dogs. Made out of high-quality leather and polyester fabric. Etched-brass hardware provides a rustic finish.
+                </p>
+                <a href="https://www.amazon.com/" class="btn-readmore">Buy on Amazon</a>
+            </div>
+        
     </section>
-
+    
+    
     <footer>
         <div id="left-footer">
             <h3>Quick Links</h3>
@@ -128,21 +134,5 @@
         </div>
     </footer>
 </main>
-<script>
-    var options1 = {
-        width: 400,
-        zoomWidth: 500,
-        offset: {vertical: 0, horizontal: 10}
-    };
-    
-    // If the width and height of the image are not known or to adjust the image to the container of it
-    var options2 = {
-        fillContainer: true,
-        offset: {vertical: 0, horizontal: 10}
-    };
-    
-    new ImageZoom(document.getElementById("test").getElementsByTagName('img'), options2);
-    
-    </script>
 </body>
 </html>
